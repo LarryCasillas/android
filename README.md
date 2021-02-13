@@ -1,1 +1,3 @@
-android
+LCROM
+
+repo init -u 
