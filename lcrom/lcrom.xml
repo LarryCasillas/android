@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+<remote  name="LCROM"
+         fetch="https://github.com/LarryCasillas/"
+         review="github.com/LarryCasillas/"
+         revision="LCROM-10" />
+     
+ <!-- marlin -->    
+<project name="android_kernel_google_marlin" path="kernel/google/marlin" remote="LCROM" />
+<project name="android_device_google_marlin" path="device/google/marlin" remote="LCROM" />
+<project name="android_vendor_google_marlin" path="vendor/google/marlin" remote="LCROM" />
+         
 
 
 </manifest>
